@@ -63,210 +63,151 @@ exports.leave = () =>{
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
 
-╭─⬣ *List Menu*
-│ • ${prefix}menu
-│ • ${prefix}help
-│ • ${prefix}haruka
-│
-├ *Download*
-│ • ${prefix}play [query]
-│ • ${prefix}song [judul lagu]
-│ • ${prefix}pinterest [query]
-│ • ${prefix}ytmp3 [url]
-│ • ${prefix}ytmp4 [url]
-│ • ${prefix}tiktok [url]
-│ • ${prefix}tiktoknowm [url]
-│ • ${prefix}tiktokwm [url]
-│ • ${prefix}tiktokaudio [url]
-│ • ${prefix}soundcloud [url]
-│ • ${prefix}telesticker [url]
-│ • ${prefix}spotify [url]
-│ • ${prefix}spotifysearch [query]
-│ • ${prefix}nhentai [code]
-│ • ${prefix}nhentaipdf [code]
-│ • ${prefix}nhentaisearch [query]
-│
-├ *Convert*
-│ • ${prefix}stiker [video/image]
-│ • ${prefix}semoji 😎
-│ • ${prefix}smeme [text]
-│ • ${prefix}memegen [text|text2]
-│ • ${prefix}fast [video/vn]
-│ • ${prefix}tupai [video/vn]
-│ • ${prefix}vibra [video/vn]
-│ • ${prefix}robot [video/vn]
-│ • ${prefix}slow [video/vn]
-│ • ${prefix}bass [video/vn]
-│ • ${prefix}nightcore [video/vn]
-│
-├ *Education*
-│ • ${prefix}nuliskiri [text]
-│ • ${prefix}nuliskanan [text]
-│ • ${prefix}foliokiri [text]
-│ • ${prefix}foliokanan [text]
-│
-├ *Islamic*
-│ • ${prefix}listsurah
-│ • ${prefix}alquran
-│ • ${prefix}asmaulhusna
-│ • ${prefix}kisahnabi
-│ • ${prefix}alquranaudio
-│ • ${prefix}jadwalsholat
-│
-├ *For wibu*
-│ • ${prefix}nami 
-│ • ${prefix}copper 
-│ • ${prefix}naruto  
-│ • ${prefix}zoro 
-│ • ${prefix}ussop 
-│ • ${prefix}minato 
-│ • ${prefix}sasuke 
-│ • ${prefix}sakura
-│ • ${prefix}luffy 
-│ • ${prefix}sanji  
-│ • ${prefix}boruto 
-│ • ${prefix}sarada 
-│ • ${prefix}mitsuki 
-│ • ${prefix}orochimaru 
-│ • ${prefix}tsunade 
-│ • ${prefix}kakashi 
-│ • ${prefix}killua 
-│ • ${prefix}gon 
-│ • ${prefix}rimuru 
-│ • ${prefix}sagiri 
-│ • ${prefix}natsu 
-│ • ${prefix}tanjirou 
-│ • ${prefix}nezuko 
-│ • ${prefix}senku
-│
-├ *Maker Ephoto360*
-│ • ${prefix}wetglass
-│ • ${prefix}multicolor3d
-│ • ${prefix}watercolor
-│ • ${prefix}luxurygold
-│ • ${prefix}galaxywallpaper
-│ • ${prefix}lighttext
-│ • ${prefix}beautifulflower
-│ • ${prefix}puppycute
-│ • ${prefix}royaltext
-│ • ${prefix}heartshaped
-│ • ${prefix}birthdaycake
-│ • ${prefix}galaxystyle
-│ • ${prefix}hologram3d
-│ • ${prefix}greenneon
-│ • ${prefix}glossychrome
-│ • ${prefix}greenbush
-│ • ${prefix}metallogo
-│ • ${prefix}noeltext
-│ • ${prefix}glittergold
-│ • ${prefix}textcake
-│ • ${prefix}starsnight
-│ • ${prefix}wooden3d
-│ • ${prefix}textbyname
-│ • ${prefix}writegalacy
-│ • ${prefix}galaxybat
-│ • ${prefix}snow3d
-│ • ${prefix}birthdayday
-│ • ${prefix}goldplaybutton
-│ • ${prefix}silverplaybutton
-│ • ${prefix}freefire
-│
-├ *Maker TextPro*
-│ • ${prefix}blackpink
-│ • ${prefix}neon
-│ • ${prefix}greenneon
-│ • ${prefix}advanceglow
-│ • ${prefix}futureneon
-│ • ${prefix}sandwriting
-│ • ${prefix}sandsummer
-│ • ${prefix}sandengraved
-│ • ${prefix}metaldark
-│ • ${prefix}neonlight
-│ • ${prefix}holographic
-│ • ${prefix}text1917
-│ • ${prefix}minion
-│ • ${prefix}deluxesilver
-│ • ${prefix}newyearcard
-│ • ${prefix}bloodfrosted
-│ • ${prefix}halloween
-│ • ${prefix}jokerlogo
-│ • ${prefix}fireworksparkle
-│ • ${prefix}natureleaves
-│ • ${prefix}bokeh
-│ • ${prefix}toxic
-│ • ${prefix}strawberry
-│ • ${prefix}box3d
-│ • ${prefix}roadwarning
-│ • ${prefix}breakwall
-│ • ${prefix}icecold
-│ • ${prefix}luxury
-│ • ${prefix}cloud
-│ • ${prefix}summersand
-│ • ${prefix}horrorblood
-│ • ${prefix}thunder
-│
-├ *Game*
-│ • ${prefix}tebakgambar 
-│
-├ *Anime search*
-│ • ${prefix}character [anime]
-│ • ${prefix}anime [query]
-│ • ${prefix}manga [query]
-│ • ${prefix}kusonime [query]
-│ • ${prefix}kusonimesearch [query]
-│ • ${prefix}otakudesu [query]
-│ • ${prefix}otakudesusearch [query] 
-│
-├ *Random text*
-│ • ${prefix}pantun 
-│ • ${prefix}puisi 
-│ • ${prefix}bucinquote 
-│ • ${prefix}dilanquote 
-│ • ${prefix}katasenja 
-│ • ${prefix}motivasi
-│ • ${prefix}randomquote
-│ • ${prefix}quotemuslim
-│ • ${prefix}quotesgalau
-│ • ${prefix}creepyfact
-│ • ${prefix}cerpen
-│ • ${prefix}cersex
-│ • ${prefix}cersex2
-│ • ${prefix}huluh [text]
-│ • ${prefix}hilih [text]
-│ • ${prefix}heleh [text]
-│ • ${prefix}halah [text]
-│ • ${prefix}reversetext [text]
-│ • ${prefix}cercreepy
-│ • ${prefix}faktaunik
-│ • ${prefix}quotetrump
-│ • ${prefix}animequote
-│ • ${prefix}animequote2
-│ • ${prefix}trumpthink
-│
-├ *Info*
-│ • ${prefix}owner
-│ • ${prefix}daftar
-│
-├ *Owner*
-│ • ${prefix}broadcast [text]
-│ • ${prefix}leave
-│ • ${prefix}antidelete [on/off]
-│ • ${prefix}anticall [on/off]
-│ • >
-│ • $
-│ •  => 
-│
-├ *Group*
-│ • ${prefix}sider [reply pesan bot]
-│ • ${prefix}listonline
-│ • ${prefix}delete [reply pesan bot]
-│ • ${prefix}antilink 1 / 0
-│ • ${prefix}hidetag [text]
-│ • ${prefix}linkgrup
-│ • ${prefix}tagall
-│ • ${prefix}kick @tag
-│ • ${prefix}setdesc [text] 
-│ • ${prefix}setname [text] 
-╰─⬣
+┏━━⬣「 *LIST MENU* 」
+┃❏ ${prefix}menu
+┃❏ ${prefix}help
+┃❏ ${prefix}haruka
+┗━━⬣ 「 *INFO MRNU* 」
+
+┏━━⬣「 *Download* 」
+┃❏ ${prefix}play [query]
+┃❏ ${prefix}song [judul lagu]
+┃❏ ${prefix}pinterest [query]
+┃❏ ${prefix}ytmp3 [url]
+┃❏ ${prefix}ytmp4 [url]
+┃❏ ${prefix}tiktok [url]
+┃❏ ${prefix}tiktoknowm [url]
+┃❏ ${prefix}tiktokwm [url]
+┃❏ ${prefix}tiktokaudio [url]
+┃❏ ${prefix}soundcloud [url]
+┃❏ ${prefix}telesticker [url]
+┃❏ ${prefix}spotify [url]
+┃❏ ${prefix}spotifysearch [query]
+┃❏ ${prefix}nhentai [code]
+┃❏ ${prefix}nhentaipdf [code]
+┃❏ ${prefix}nhentaisearch [query]
+┗━━⬣「 *DOWNLOD MENU* 」
+
+┏━━⬣「 *Convert* 」
+┃❏ ${prefix}stiker [video/image]
+┃❏ ${prefix}semoji 😎
+┃❏ ${prefix}smeme [text]
+┃❏ ${prefix}memegen [text|text2]
+┃❏ ${prefix}fast [video/vn]
+┃❏ ${prefix}tupai [video/vn]
+┃❏ ${prefix}vibra [video/vn]
+┃❏ ${prefix}robot [video/vn]
+┃❏ ${prefix}slow [video/vn]
+┃❏ ${prefix}bass [video/vn]
+┃❏ ${prefix}nightcore [video/vn]
+┗━━⬣「 *CONVERT MENU* 」
+
+┏━━⬣「 *EDUCATION*  」
+┃❏ ${prefix}nuliskiri [text]
+┃❏ ${prefix}nuliskanan [text]
+┃❏ ${prefix}foliokiri [text]
+┃❏ ${prefix}foliokanan [text]
+┗━━⬣「 *NULIS MENU* 」
+
+┏━━⬣「 *ISLAMIC* 」
+┃❏ ${prefix}listsurah
+┃❏ ${prefix}alquran
+┃❏ ${prefix}asmaulhusna
+┃❏ ${prefix}kisahnabi
+┃❏ ${prefix}alquranaudio
+┃❏ ${prefix}jadwalsholat
+┗━━⬣「 *ISLAM MENU* 」
+
+┏━━⬣「 *MAKER EPHOTO360* 」
+┃❏ ${prefix}wetglass
+┃❏ ${prefix}multicolor3d
+┃❏ ${prefix}watercolor
+┃❏ ${prefix}luxurygold
+┃❏ ${prefix}galaxywallpaper
+┃❏ ${prefix}lighttext
+┃❏ ${prefix}beautifulflower
+┃❏ ${prefix}puppycute
+┃❏ ${prefix}royaltext
+┃❏ ${prefix}heartshaped
+┃❏ ${prefix}birthdaycake
+┃❏ ${prefix}galaxystyle
+┃❏ ${prefix}hologram3d
+┃❏ ${prefix}greenneon
+┃❏ ${prefix}glossychrome
+┃❏ ${prefix}greenbush
+┃❏ ${prefix}metallogo
+┃❏ ${prefix}noeltext
+┃❏ ${prefix}glittergold
+┃❏ ${prefix}textcake
+┃❏ ${prefix}starsnight
+┃❏ ${prefix}wooden3d
+┃❏ ${prefix}textbyname
+┃❏ ${prefix}writegalacy
+┃❏ ${prefix}galaxybat
+┃❏ ${prefix}snow3d
+┃❏ ${prefix}birthdayday
+┃❏ ${prefix}goldplaybutton
+┃❏ ${prefix}silverplaybutton
+┃❏ ${prefix}freefire
+┗━━⬣「 *FOTO WAU MENU* 」
+
+┏━━⬣「 *MAKER TEXTPRO* 」
+┃❏ ${prefix}blackpink
+┃❏ ${prefix}neon
+┃❏ ${prefix}greenneon
+┃❏ ${prefix}advanceglow
+┃❏ ${prefix}futureneon
+┃❏ ${prefix}sandwriting
+┃❏ ${prefix}sandsummer
+┃❏ ${prefix}sandengraved
+┃❏ ${prefix}metaldark
+┃❏ ${prefix}neonlight
+┃❏ ${prefix}holographic
+┃❏ ${prefix}text1917
+┃❏ ${prefix}minion
+┃❏ ${prefix}deluxesilver
+┃❏ ${prefix}newyearcard
+┃❏ ${prefix}bloodfrosted
+┃❏ ${prefix}halloween
+┃❏ ${prefix}jokerlogo
+┃❏ ${prefix}fireworksparkle
+┃❏ ${prefix}natureleaves
+┃❏ ${prefix}bokeh
+┃❏ ${prefix}toxic
+┃❏ ${prefix}strawberry
+┃❏ ${prefix}box3d
+┃❏ ${prefix}roadwarning
+┃❏ ${prefix}breakwall
+┃❏ ${prefix}icecold
+┃❏ ${prefix}luxury
+┃❏ ${prefix}cloud
+┃❏ ${prefix}summersand
+┃❏ ${prefix}horrorblood
+┃❏ ${prefix}thunder
+┗━━⬣「 *TEXTPRO MENU* 」
+
+┏━━⬣「 *GAME MENU* 」
+┃❏ ${prefix}tebakgambar 
+┗━━⬣「 *BAKALAN DIBTAMAHIN* 」
+
+┏━━⬣「 *OMER MENU* 」
+┃❏ ${prefix}owner
+┃❏ ${prefix}daftar
+┃❏ ${prefix}broadcast [text]
+┃❏ ${prefix}leave
+┃❏ >    (KUSUS OWNER BOT)
+┃❏ $    (KUSUS OWNER BOT)
+┃❏ =>   (KUSUS OWNER BOT)
+┗━━⬣「 *OWNER MENU* 」
+
+┏━━⬣「 *GROUP MENU* 」
+┃❏ ${prefix}antilink 1 / 0
+┃❏ ${prefix}hidetag [text]
+┃❏ ${prefix}linkgrup
+┃❏ ${prefix}tagall
+┃❏ ${prefix}kick @tag
+┃❏ ${prefix}setdesc [text] 
+┃❏ ${prefix}setname [text] 
+┗━━⬣「 *OWNER MENU* 」
 `
 	}
