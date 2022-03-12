@@ -66,7 +66,6 @@ exports.menu = (prefix, salam, pushname) =>{
 ┏━━⬣「 *LIST MENU* 」
 ┃❏ ${prefix}menu
 ┃❏ ${prefix}help
-┃❏ ${prefix}haruka
 ┗━━⬣ 「 *INFO MRNU* 」
 
 ┏━━⬣「 *Download* 」
